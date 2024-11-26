@@ -1,0 +1,23 @@
+@import url("../styles/herader.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topico.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root{
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #eb9b00;
+    --azu-degrade: liner-gradient(97.54deg, #002f52 35.49%, #326589 265.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002f52;
+}
+
+boby{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
